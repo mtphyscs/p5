@@ -12,7 +12,7 @@ function setup() {
 }
 
 function draw() {
-  // happens over and over
+  // happens over and over!!
   col.r = random(0, 255);
   col.g = random(0, 255);
   col.b = random(0, 255);
