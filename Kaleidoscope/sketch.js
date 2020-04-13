@@ -3,7 +3,7 @@ let shapes;
 let hex;
 
 function colorFromPalette(n) {
-  const palette = ["#87CEFA", "#B0C4DE", "#FFD700", "#EE82EE", "#FF4500"];
+  const palette = ["#030303", "#00FF33", "#FF0000", "#8900D8", "#00DEFF"];
   return palette[n % palette.length];
 }
 
