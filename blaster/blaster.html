@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+
+  <title>Camera Box</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
+  <script src="sketch.js"></script>
+  <script src="ccapture.min.js"></script>
+  <script src="gif.worker.js"></script>
+  <script src="CCapture.all.min.js"></script>
+
+ <script>
+     var capturer = new CCapture( {
+    framerate: 60,
+    format: 'gif',
+    workersPath: 'gif.worker.js',
+	verbose: true
+} );
+ </script>
+ 
+
+</head>
+
+<body>
+  
+
+
+  
+</body>
+</html>
